@@ -47,5 +47,5 @@ app.use(indexRoutes);
 app.use(campgroundRoutes);
 app.use(commentRoutes);
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 3000);
 
